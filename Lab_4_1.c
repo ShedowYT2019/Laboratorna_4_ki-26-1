@@ -1,7 +1,7 @@
  #include <stdio.h>
  #include <math.h>
 
- #define MAX_DATA 11
+ #define MAX_DATA 10
 
  int main() {
     double a[MAX_DATA] = {0};
