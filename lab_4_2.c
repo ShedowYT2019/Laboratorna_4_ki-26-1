@@ -65,9 +65,9 @@ void assert_equal_double(double expected, double actual, int precision)         
     double rounded_expected = round(expected * factor) / factor;
 
     if (rounded_actual == rounded_expected) {                                             /// Якщо обчислене значення S3 дорівнює очікуваному результату ok_result з точністю до 6 знаків після коми, то виводиться повідомлення про успішне проходження тесту
-        fprintf(stderr, "Test ok! Expected == Actual == %.6f\n", rounded_actual);
+        fprintf(stderr, "Test ok! Expected == Actual == %.6f\n", rounded_actual);         /// Виведення повідомлення про успішне проходження тесту
     } else {
-        fprintf(stderr, "Test FAIL! Expected %.6f != Actual %.6f\n",
+        fprintf(stderr, "Test FAIL! Expected %.6f != Actual %.6f\n",                      /// Виведення повідомлення про невідповідність очікуваного та фактичного результатів
                 rounded_expected, rounded_actual);
         exit(1);
     }
