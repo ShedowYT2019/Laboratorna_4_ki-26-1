@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-
+ 
 #define MAX_DATA 11
 
 void assert_equal_double(double expected, double actual, int precision);
