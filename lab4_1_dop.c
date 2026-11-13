@@ -28,7 +28,7 @@
             return 1;
         }
         sumLog += log(logArg);
-        sumDen += c * fabs(1.0 - s);
+        sumDen += cos(fabs(1.0 - s));
     }
     if (sumDen == 0.0) {
         printf("The denominator is zero\n");
