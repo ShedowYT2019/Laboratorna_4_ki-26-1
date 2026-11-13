@@ -1,4 +1,4 @@
- #include <stdio.h>                                       /// Імпортування бібліотек
+ #include <stdio.h>                                       /// Імпортування бібліотек0.3
  #include <math.h>
 
  #define MAX_DATA 11                                      /// Визначення константи MAX_DATA для розміру масиву
@@ -25,7 +25,7 @@
         }
 
         sumLog += log(logArg);
-        sumDen += c * fabs(1.0 - s);
+        sumDen += cos(fabs(1.0 - s));
     }
 
     if (sumDen == 0.0) {                               /// Перевірка на нульовий знаменник
