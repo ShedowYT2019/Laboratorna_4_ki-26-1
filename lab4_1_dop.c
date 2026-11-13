@@ -11,7 +11,7 @@
     #else
         double a[MAX_DATA] = {0};
     #endif
-    double sumLog, sumDen;
+    double sumLog = 0, sumDen = 0;
     #ifndef USE_TEST
     for (int i=0; i<MAX_DATA; i++) {
         printf("Enter a[%d]: ", i+1);
